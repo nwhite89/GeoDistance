@@ -1,0 +1,4 @@
+{
+	"name": "GeoDistance",
+	"main": "./lib/index.js"
+}
