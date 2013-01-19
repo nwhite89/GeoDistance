@@ -1,4 +1,20 @@
 {
-	"name": "GeoDistance",
-	"main": "./lib/index.js"
+  "name": "GeoDistance",
+  "version": "0.0.1",
+  "description": "A Node.js module which takes 2 Lat+Lng (Geolocation) points and returns the distance between the two points in Meters",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://nwhite89@github.com/nwhite89/GeoDistance.git"
+  },
+  "keywords": [
+    "Geolocation"
+  ],
+  "author": "Nick White",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "2cddb30954d7b1b6c788f0f774b99c397fe255dd"
 }
