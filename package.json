@@ -16,5 +16,11 @@
   "author": "Nick White",
   "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "2cddb30954d7b1b6c788f0f774b99c397fe255dd"
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-jscs": "~0.6.2",
+    "load-grunt-tasks": "~0.6.0"
+  }
 }
