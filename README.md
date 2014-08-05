@@ -2,7 +2,6 @@
 [![devDependency Status](https://david-dm.org/nwhite89/GeoDistance/dev-status.svg)](https://david-dm.org/nwhite89/GeoDistance#info=devDependencies)
 [![Monthly downloads](http://img.shields.io/npm/dm/geo-distance-js.svg)](https://www.npmjs.org/package/geo-distance-js)
 [![License](http://img.shields.io/npm/l/geo-distance-js.svg)](https://www.npmjs.org/package/geo-distance-js)
-[![Open Issues](http://img.shields.io/github/issues/nwhite89/GeoDistance.svg)](https://github.com/nwhite89/GeoDistance/issues)
 
 # GeoDistance.js
 ### A Node.js module which takes 2 Lat+Lng (Geolocation) points and returns the distance between the two points in Meters
