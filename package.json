@@ -4,17 +4,33 @@
   "description": "A Node.js module which takes 2 Lat+Lng (Geolocation) points and returns the distance between the two points in Meters",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
     "url": "https://nwhite89@github.com/nwhite89/GeoDistance.git"
   },
   "keywords": [
-    "Geolocation"
+    "Geolocation",
+    "Geo",
+    "Geo-location"
   ],
-  "author": "Nick White",
-  "license": "BSD",
-  "readmeFilename": "README.md",
-  "gitHead": "2cddb30954d7b1b6c788f0f774b99c397fe255dd"
+  "author": [
+    "Nick White <nickswhite89@gmail.com> (http://toxicd.co.uk)"
+  ],
+  "bugs": {
+    "url": "https://github.com/nwhite89/GeoDistance/issues"
+  },
+  "homepage": "https://github.com/nwhite89/GeoDistance",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-jscs": "~0.6.2",
+    "load-grunt-tasks": "~0.6.0"
+  },
+  "engines": {
+    "node": "~0.10.0"
+  }
 }
