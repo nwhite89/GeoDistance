@@ -10,6 +10,9 @@ module.exports = function (grunt) {
         },
         'jscs': {
             'src': '<%= jshint.src %>'
+        },
+        'nodeunit': {
+            all: ['tests/*.spec.js']
         }
     });
 
@@ -18,7 +21,8 @@ module.exports = function (grunt) {
     // Registers a task to test the task
     grunt.registerTask('test', [
         'jshint',
-        'jscs'
+        'jscs',
+        'nodeunit'
     ]);
 
     grunt.registerTask('default', ['test']);
