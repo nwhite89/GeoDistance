@@ -11,8 +11,12 @@ module.exports = function (grunt) {
         'jscs': {
             'src': '<%= jshint.src %>'
         },
-        'nodeunit': {
-            all: ['tests/*.spec.js']
+        'mochaTest': {
+            'test': {
+                'src': [
+                    'tests/*.spec.js'
+                ]
+            }
         }
     });
 
@@ -22,7 +26,7 @@ module.exports = function (grunt) {
     grunt.registerTask('test', [
         'jshint',
         'jscs',
-        'nodeunit'
+        'mochaTest'
     ]);
 
     grunt.registerTask('default', ['test']);
