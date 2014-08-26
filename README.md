@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/nwhite89/GeoDistance.svg?branch=master)](https://travis-ci.org/nwhite89/GeoDistance)
 [![devDependency Status](https://david-dm.org/nwhite89/GeoDistance/dev-status.svg)](https://david-dm.org/nwhite89/GeoDistance#info=devDependencies)
 [![Monthly downloads](http://img.shields.io/npm/dm/geo-distance-js.svg)](https://www.npmjs.org/package/geo-distance-js)
+[![Coverage Status](https://img.shields.io/coveralls/nwhite89/GeoDistance.svg)](https://coveralls.io/r/nwhite89/GeoDistance?branch=master)
 [![License](http://img.shields.io/npm/l/geo-distance-js.svg)](https://www.npmjs.org/package/geo-distance-js)
 
 # GeoDistance.js
