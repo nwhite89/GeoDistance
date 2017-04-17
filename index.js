@@ -73,7 +73,7 @@ exports.retrieveDistance = function (data) {
         b = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)),
         c = earthRadius * b,
         d = (Math.round(c * Math.pow (10, decimals)) /
-            Math.pow(10, decimals)) * 1000;
+            Math.pow(10, decimals));
 
     return d;
 };
@@ -102,8 +102,6 @@ exports.getDistance = function (from, to, orderBy, length, decimals) {
         earthRadius = this.distances[length],
         fromLng = parseFloat(fromObj.lng),
         fromLat = parseFloat(fromObj.lat);
-
-    fromLat = fromLat.toRad();
 
     for (var i = to.length - 1; i >= 0; i--) {
         var lngLat = toObj[i],
